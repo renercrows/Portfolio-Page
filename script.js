@@ -168,6 +168,7 @@ function createModal(id) {
   const liveBtn = document.createElement('a');
   liveBtn.setAttribute('id', 'live');
   liveBtn.setAttribute('href', project.link);
+  liveBtn.setAttribute('target', '_blank');
   liveBtn.textContent = 'See Live';
   const liveIcon = document.createElement('img');
   liveIcon.setAttribute('src', 'images/live-icon.svg');
@@ -177,6 +178,7 @@ function createModal(id) {
   const srcBtn = document.createElement('a');
   srcBtn.setAttribute('id', 'source');
   srcBtn.setAttribute('href', project.source);
+  srcBtn.setAttribute('target', '_blank');
   srcBtn.textContent = 'See Source';
   const srcIcon = document.createElement('img');
   srcIcon.setAttribute('src', 'images/githubicon.png');

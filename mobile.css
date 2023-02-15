@@ -440,6 +440,7 @@ button,
 .image-placeholder {
   height: auto;
   width: 100%;
+  z-index: -1;
 }
 
 .modal-image {
