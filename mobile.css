@@ -296,6 +296,7 @@ button,
   left: 0;
   pointer-events: auto;
   overflow-y: auto;
+  z-index: 1;
 }
 
 #modal {
@@ -440,7 +441,6 @@ button,
 .image-placeholder {
   height: auto;
   width: 100%;
-  z-index: -1;
 }
 
 .modal-image {
