@@ -292,10 +292,11 @@ button,
 
 #modal-container.show {
   display: block;
+  height: 100%;
+  width: 100%;
   opacity: 100%;
   left: 0;
   pointer-events: auto;
-  overflow-y: auto;
   z-index: 1;
 }
 
@@ -377,6 +378,7 @@ button,
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-bottom: -2%;
 }
 
 #live {
@@ -445,7 +447,9 @@ button,
 
 .modal-image {
   height: auto;
-  width: 86%;
+  width: 48%;
+  margin-top: -1%;
+  margin-bottom: -1%;
 }
 
 .work-content {
@@ -919,7 +923,7 @@ button,
     letter-spacing: 0;
     text-align: left;
     color: #ffff;
-    margin: 1.25em 1.25em;
+    margin: 0.50em 1.25em;
   }
 
   .modal-image {
