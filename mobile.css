@@ -447,7 +447,7 @@ button,
 
 .modal-image {
   height: auto;
-  width: 48%;
+  width: 50%;
   margin-top: -1%;
   margin-bottom: -1%;
 }
@@ -923,7 +923,7 @@ button,
     letter-spacing: 0;
     text-align: left;
     color: #ffff;
-    margin: .50em 1.25em;
+    margin: 0em 1.25em;
   }
 
   .modal-image {

@@ -9,7 +9,7 @@ const projectCards = [
     source: 'https://github.com/dgonzalesi/blue-dreams-front-end',
   },
   {
-    id: 2,search bar
+    id: 2,
     title: 'Pokedex-API',
     img: 'images/Pokedex.png',
     description: 'This is a webpage in which you can see Pokémon from a list, see the types, and attacks, and also you can use a search bar to find the Pokémon of your liking.This project utilizes one of the best programming languages, using React with the help of Redux to store the information, all connected to an external API that comes with the Pokémon library.',
