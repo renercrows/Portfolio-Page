@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: #191765;
+  background: #181824;
   font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
   margin: 0;
@@ -57,7 +57,7 @@ hr {
   justify-content: space-between;
   align-items: center;
   color: #ffff;
-  background-color: #191765;
+  background-color: #181824;
 }
 
 .overlay-menu {
@@ -164,13 +164,13 @@ hr {
 }
 
 .name {
-  color: #7d73fc;
+  color: #ffff;
   font-size: 48px;
   font-weight: 700;
 }
 
 .occupation {
-  color: #ffff;
+  color: #8D8C92;
   font-size: 32px;
   font-weight: 500;
   margin: 0;
@@ -213,7 +213,7 @@ hr {
   font-size: 12px;
   font-weight: 600;
   align-items: center;
-  color: #7d73fc;
+  color: #8D8C92;
 }
 
 ul {
@@ -282,7 +282,7 @@ button,
   position: fixed;
   top: 0;
   left: -100%;
-  background-color: #191765cc;
+  background-color: #181824;
   backdrop-filter: blur(3px);
   width: 100vw;
   height: 100vh;
@@ -311,7 +311,7 @@ button,
   background-color: rgba(255, 255, 255, 0.2);
   mix-blend-mode: screen;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-  border: 1px solid white;
+  border: 1px solid #ffff;
 }
 
 .modal-header-container {
@@ -465,7 +465,7 @@ button,
   line-height: 44px;
   letter-spacing: 0;
   text-align: left;
-  color: #ffff;
+  color: #8D8C92;
   margin-bottom: 20px;
   margin-top: 55px;
 }
@@ -891,7 +891,7 @@ button,
     background-color: rgba(255, 255, 255, 0.2);
     mix-blend-mode: screen;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-    border: 1px solid white;
+    border: 1px solid #ffff;
   }
 
   .modal-header-container {
@@ -906,7 +906,7 @@ button,
 
   .recent-works-header {
     display: block;
-    color: #9490ff;
+    color: #ffff;
     max-width: 100%;
     font-weight: 700;
     font-size: 4rem;
@@ -1077,7 +1077,7 @@ button,
     line-height: 44px;
     letter-spacing: 0;
     text-align: center;
-    color: #9390ff;
+    color: #ffff;
   }
 
   .contact-header {
